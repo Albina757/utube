@@ -1,0 +1,13 @@
+SELECT ProductName, Price
+FROM Products
+where Price >=20 and Price <=150 ;
+
+SELECT Phone FROM Suppliers
+where country = "Japan" or country = "spain";
+
+SELECT ProductName, Price FROM Products
+where SupplierId !=1;
+
+SELECT CustomerName FROM Customers
+where country != "brazil" and country !=
+"Germany";
