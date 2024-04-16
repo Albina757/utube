@@ -1,0 +1,14 @@
+#!/bin/bash
+mkdir -p /home/user/student
+ls -al /sys | head -3 >> /home/user/student/rAndom.txt
+cp -r /root /home/user/student
+df >> /home/user/student/rAndom.txt
+        for i in {24..0}
+        do
+        mkdir -p /home/user/student/i
+        done
+ 
+mkdir -p /opt/neW
+mv -p /home/user/student /opt/neW/iamstudent
+echo "DONE"
+ 
