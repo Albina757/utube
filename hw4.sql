@@ -17,7 +17,7 @@ SELECT ProductName, Price AS Price_usd
 FROM OrderDetails
 JOIN Products ON OrderDetails.ProductID = Products.ProductID
 ORDER BY Price Desc
-Limit 1SELECT ProductName, Price AS Price_usd 
+Limit 1SELECT ProductName, Price*1.08 AS Price_usd 
 FROM OrderDetails
 JOIN Products ON OrderDetails.ProductID = Products.ProductID
 ORDER BY Price Desc
